@@ -1,0 +1,26 @@
+.pagination_nav {
+  .pagination_ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    .pagination_list {
+      border-radius: 20%;
+      border: 2px solid #fe5f1e;
+      color: #fe5f1e;
+      cursor: pointer;
+      font-weight: 500;
+      width: 15px;
+      height: 15px;
+      padding: 10px;
+      margin: 10px;
+      &.active {
+        background-color: #fe5f1e;
+        color: #f9f9f9;
+        cursor: pointer;
+        font-weight: 500;
+      }
+    }
+  }
+}

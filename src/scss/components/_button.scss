@@ -1,0 +1,39 @@
+@import '../variables';
+
+.button {
+  display: inline-block;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px 20px;
+  min-width: 100px;
+  text-align: center;
+  margin: 10px 0;
+  cursor: pointer;
+  border: 2px solid $orange;
+  color: $orange;
+  font-weight: 600;
+  width: 113px;
+  &:hover {
+    color: white;
+    background-color: $orange;
+  }
+}
+
+.button_delete {
+  display: inline-block;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px 20px;
+  min-width: 100px;
+  text-align: center;
+  margin: 10px 0;
+  cursor: pointer;
+  border: 2px solid rgb(224, 3, 3);
+  color: rgb(224, 3, 3);
+  font-weight: 600;
+  width: 113px;
+  &:hover {
+    color: white;
+    background-color: rgb(224, 3, 3);
+  }
+}

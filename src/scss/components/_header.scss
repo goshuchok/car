@@ -1,0 +1,43 @@
+@import '../variables';
+
+.header {
+  border-bottom: 1px solid $gray-line;
+  padding: 40px 0;
+  text-align: center;
+  .container {
+    display: flex;
+    justify-content: space-around;
+    .link {
+      text-decoration: none;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+      margin-left: 20px;
+      &:hover {
+        color: $orange;
+        border-bottom: 1px solid $orange;
+      }
+    }
+    @media (max-width: 645px) {
+      flex-direction: column;
+      .header__cart {
+        margin-top: 20px;
+      }
+    }
+  }
+
+  h1 {
+    color: #181818;
+    font-size: 24px;
+    letter-spacing: 1%;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+
+  p {
+    color: #7b7b7b;
+    padding: 20px;
+  }
+}
